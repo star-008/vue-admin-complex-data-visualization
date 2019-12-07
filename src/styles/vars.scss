@@ -1,0 +1,100 @@
+$color-primary: #186ed9;
+$color-primary-light: #6aa5ff;
+
+.vscroll {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+.vscroll::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 13px;
+}
+.vscroll::-webkit-scrollbar-button {
+    display: none;
+}
+.vscroll::-webkit-scrollbar-thumb {
+    min-height: 2rem;
+    background: #dfe6ec;
+    background-clip: padding-box;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+.vscroll::-webkit-scrollbar-thumb:active {
+    background-color: #d1dbe5;
+    border-width: 2px;
+}
+.vscroll::-webkit-scrollbar-track {
+    background: #fff;
+}
+.nohscroll {
+    overflow-x: hidden;
+}
+.ecrm-search-title {
+    height: 35px;
+    line-height: 45px;
+    font-size: 16px;
+    border-bottom: 1px solid $color-primary;
+    a {
+        min-width: 110px;
+        padding: 0px 6px;
+        height: 35px;
+        color: #999;
+        display: block;
+        float: left;
+        text-align: center;
+        line-height: 35px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a.selected {
+        background: $color-primary;
+        color: #fff;
+    }
+}
+.sms-content-panel {
+    padding: 0px 0px;
+}
+.sms-content-tool-panel {
+    padding: 10px 0px;
+}
+.el-button--table-op:focus,
+.el-button--table-op:hover {
+    background: $color-primary;
+    border-color: $color-primary;
+    color: #fff;
+}
+.my-pagination {
+    width: 100%;
+    text-align: center;
+    .ecrm-mode-page-total {
+        padding: 0px 5px;
+    }
+    .el-button {
+        color: #666;
+    }
+}
+.el-button--bgsmall {
+    padding: 7px 9px;
+    font-size: 12px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+.el-button--bgsmall.is-disabled:hover {
+    border: 1px solid transparent;
+}
+.el-button--bgsmall:hover {
+    border: 1px solid $color-primary;
+}
+.el-button-selected {
+    background-color: $color-primary;
+    border-color: $color-primary;
+    color: white;
+}
+.el-button--small+.el-button--small {
+    margin-left: 0px;
+}
+.tree-dialog {
+    max-height: 400px;
+    overflow-y: auto;
+}

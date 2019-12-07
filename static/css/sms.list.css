@@ -1,0 +1,199 @@
+.sc-arg-set-gray {
+    color: #999;
+}
+.sms-filter-panel {
+	border-bottom:1px solid #e9ecee;
+	margin-bottom:30px;
+	margin-top:10px;
+}
+.sms-batchop-panel {
+	margin-bottom:10px;
+}
+.sms-title {
+	color:#186ed9;
+	font-size:16px;
+	margin-right:4px;
+	margin-bottom:10px;
+	display:inline-block;
+	font-weight: bold;
+}
+.sms-info-title {
+	float: left;
+	color: black;
+}
+.sms-info-label {
+	display: inline-block;
+	width: calc(100% - 75px);
+	color: #666;
+}
+.sms-info-label span {
+	display: inline-block;
+}
+.sms-info-label span.sms-comma-seperation:after {
+	content:'、';
+}
+.sms-info-label span.sms-comma-seperation:last-child:after {
+	content:'';
+}
+.sms-footer-op {
+	text-align:center;
+}
+/** Table Anchor Operation **/
+.sms-operation .sms-operation-anchor {
+	color:#186ed9;
+	text-decoration:none;
+	cursor:pointer;
+	margin-right:15px;
+	display:inline-block;
+}
+.sms-operation .sms-operation-anchor:last-child {
+	margin-right:0px;
+}
+.sms-filter-panel .el-select {
+	width:100%;
+}
+
+/** Pagination **/
+.sms-pagination {
+	background-color:#edf2f7;
+	padding:3px 4px 3px 10px;
+	border-style:solid;
+	border-color:#dfe6ec;
+	border-width:0px 1px 1px 1px;
+	font-size:13px;
+	color:#333;
+}
+.sms-pagination span {
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+}
+.sms-pagination-control-panel {
+	float:right;
+}
+.sms-pagination-control {
+	border-right:1px solid #dedede;
+	padding:0px 6px;
+}
+.sms-pagination-control-panel .sms-pagination-control:last-child {
+	border:0px;
+}
+.sms-pagination-input {
+	width:2em;
+}
+.sms-pagination-control i {
+	color:#399df5;
+	cursor:pointer;
+	margin:0px 3px;
+}
+.sms-pagination-control i[disabled=disabled] {
+	color:#94c8f6;
+}
+
+/** Setting Page **/
+.sms-setting-panel-title {
+	font-size:17px;	
+	font-weight:bold;
+	border-bottom:1px solid #d1dbe5;
+	padding-bottom:10px;
+	margin-bottom:10px;
+	color: #333;
+}
+.sms-setting-panel-desc {
+	background-color:#ecf4ff;
+	padding:10px;
+	color:#666;
+}
+.sms-setting-panel-content {
+	padding:20px 30px;
+}
+.sms-setting-panel-footer {
+	text-align: center;
+	border-top:1px solid #e9ecee;
+	padding-top:10px;
+	margin-top:10px;
+}
+.sms-setting-number {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	border-radius: 3px;
+	border:1px solid #186ed9;
+	text-align:center;
+	color:#186ed9;
+}
+.sms-conf-item {
+    display:inline-block;
+    width:65px;
+    text-align:center;
+    color:#333;
+    line-height: 20px;
+}
+.sms-conf-item-big {
+    width:100px;
+}
+.sms-setting-panel-content .el-row {
+    margin-bottom:20px;
+}
+.sms-setting-panel-content .el-row:last-child {
+    margin-bottom:0px;
+}
+.sms-setting-panel-content .el-input.is-disabled .el-input__inner {
+    background-color:white;
+    color:#666;
+    border-color:#bfcbd9;
+}
+.sms-setting-panel-content .el-radio__input.is-disabled+.el-radio__label {
+	color:#666;
+}
+.sms-examfilter {
+	max-width: 28em;
+}
+.sms-main-cover-title-span {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.sms-main-cover-title {
+	height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.sms-progress-title {
+	width: 100%;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	color: #666666;
+	margin-bottom: 32px;
+}
+.sms-progress-desc {
+	width: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #666666;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+.sms-progress-success {
+	color: #78cf70;
+}
+.sms-progress-success span {
+	background:url('../img/sc-status-success.png') no-repeat;
+	padding-left: 25px;
+}
+.sms-progress-failed {
+	color: #ff6c60;
+}
+.sms-progress-failed span {
+	background:url('../img/sc-status-failed.png') no-repeat;
+	padding-left: 25px;
+}
+.sms-dialog-noheader .el-dialog__header {
+	display: none;
+}
+.sms-dialog-noheader .el-dialog__body {
+	padding: 60px 20px 20px 20px;
+}

@@ -1,0 +1,182 @@
+.el-table td>.cell {
+	padding: 10px 10px 10px 10px;
+}
+.el-table th>.cell {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	padding: 10px 10px 10px 10px;
+}
+.sms-filter-panel .el-button--small {
+	margin-top: 5px;
+}
+.small .el-dialog {
+	width:400px;
+}
+.medium .el-dialog {
+	width:600px;
+}
+.el-button--small {
+	min-width: 74px !important;
+	min-height: 30px !important;
+	max-height: 30px !important;
+}
+.el-button {
+	min-width: 80px;
+	min-height: 36px;
+	max-height: 36px;
+}
+.el-button--search{
+	color:#fff !important;
+	background:#82d35a !important;
+	border-color:#82d35a !important;
+}
+.el-button--search:focus,.el-button--search:hover{
+	background:#56b625 !important;
+	border-color:#56b625 !important;
+	color:#fff !important;
+}
+.el-button--search.is-active,.el-button--search:active{
+	background:#56b625;
+	border-color:#56b625;
+	color:#fff;
+}
+.el-button--search:active{
+	outline:0
+}
+.el-button--search.is-plain{
+	background:#fff;border:1px solid #bfcbd9;color:#1f2d3d
+}
+.el-button--search.is-plain:focus,.el-button--search.is-plain:hover{
+	background:#fff;border-color:#186ed9;color:#186ed9
+}
+.el-button--search.is-plain:active{
+	background:#fff;border-color:#56b625;color:#56b625;outline:0
+}
+.el-button--small + .el-button--small {
+	margin-left: 8px !important;
+}
+.el-button--primary:focus, .el-button--primary:hover {
+    background: #186ed9 !important;
+    border-color: #186ed9 !important;
+}
+th div.cell {
+	font-weight: bold;
+}
+.sms-filter-panel .el-select .el-select__tags {
+    white-space: nowrap;
+    overflow-x: hidden;
+}
+.sms-wrap-column {
+	white-space:pre-wrap !important;
+	text-overflow:clip !important;
+	line-height:18px !important;
+}
+.sms-table-seperator {
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #dddddd;
+}
+.el-table th>.sms-big-title {
+	font-size: 16px;
+    font-weight: bold;
+}
+.el-tooltip__popper {
+    max-width: 400px;
+}
+.el-table th.column-break {
+    padding: 4px;
+}
+.el-table th.column-break>.cell {
+    white-space: pre-wrap;
+    line-height: normal;
+}
+.el-table td.align-left>.cell {
+	text-align: left;
+	padding-left: 5px;
+}
+.el-checkbox {
+	margin-left: 0px !important;
+	margin-right: 30px !important;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner {
+	background: #4d92fa !important;
+    border-color: #4d92fa !important;
+}
+.el-checkbox__input.is-focus .el-checkbox__inner {
+	border-color: #4d92fa !important;
+}
+.el-checkbox__inner:hover {
+    border-color: #4d92fa !important;
+}
+.el-switch.is-checked .el-switch__core {
+	background: #4d92fa !important;
+    border-color: #4d92fa !important;
+}
+.el-radio {
+	margin-left: 0px !important;
+	margin-right: 30px !important;
+}
+.el-radio__input.is-checked .el-radio__inner {
+	background: #4d92fa !important;
+    border-color: #4d92fa !important;
+}
+.el-radio__input.is-focus .el-radio__input {
+	border-color: #4d92fa !important;
+}
+.el-radio__input:hover {
+    border-color: #4d92fa !important;
+}
+.el-radio-button__orig-radio:checked+.el-radio-button__inner {
+	background: #4d92fa !important;
+    border-color: #4d92fa !important;
+}
+.main .leaf-menu.is-opened > .el-submenu__title {
+    box-shadow: none;
+    font-weight: bold;
+    color: #186ed9;
+}
+.leaf-menu .el-submenu__icon-arrow {
+	display: none;
+}
+.el-radio-group .el-radio {
+	line-height: 35px;
+}
+.table-view .el-checkbox,
+.table-view .el-radio {
+	/*margin-right: 0px !important;*/
+}
+.sms-filter-panel .el-form-item {
+	margin-bottom:20px;
+}
+.el-tabs__item.is-active {
+	font-weight: bold;
+}
+.scm-class-dropdown .el-select-dropdown__item span {
+	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    max-width: 9em;
+}
+.container .el-dialog__footer {
+	padding-bottom: 20px;
+}
+#app .el-progress.is-prepare .el-progress-bar__inner {
+	background-color:#78cf70;
+}
+#app .el-progress.is-progress .el-progress-bar__inner {
+	background-color:#78cf70;
+}
+#app .el-progress.is-success .el-progress-bar__inner {
+	background-color:#78cf70;
+}
+#app .el-progress.is-failed .el-progress-bar__inner {
+	background-color:#ff6c60;
+}
+#app .el-progress-bar {
+	padding-right:0px;
+}
+#app .el-progress__text {
+	display:none;
+}
